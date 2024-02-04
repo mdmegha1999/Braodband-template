@@ -1,0 +1,148 @@
+body {
+  background-color: black;
+}
+#root {
+  background-color: black;
+}
+.App {
+  background-color: black;
+}
+
+.App-header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1px;
+  border-bottom: 1px solid red;
+}
+
+.logo-container {
+  align-self: flex-end;
+}
+
+.shop-name-container {
+  margin-top: 20px;
+  margin-left: 45px;
+  align-self: flex-start;
+}
+.shop-name {
+  color: red;
+}
+.service-type {
+  color: white;
+}
+.plans-container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.plan-card {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 0px rgba(255, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+.plan-card:hover {
+  box-shadow: 0px 0px 50px 0px rgba(156, 163, 255, 0.356);
+}
+.plan-price {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+.plan-name {
+  padding-bottom: 5px;
+  border-bottom: 1px solid red;
+  margin-bottom: 8px;
+}
+
+.App-main {
+  background-color: black;
+}
+
+.App-footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 50px;
+  border-top: 1px solid red;
+}
+
+.footer-label {
+  color: red;
+}
+.footer-info {
+  color: rgb(151, 151, 151);
+  display: flex;
+  gap: 10px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .App-header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1px;
+  }
+  .logo-container {
+    align-self: center;
+  }
+  .shop-name-container {
+    align-self: center;
+  }
+  .App-footer{
+    grid-template-columns: 1fr 1fr;
+  }
+  .plans-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .plans-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .plans-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .plans-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .plans-container{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

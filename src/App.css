@@ -40,6 +40,12 @@ body {
   justify-content: center;
   gap: 40px;
 }
+button{
+  background-color: red;
+  border: none;
+  border-radius: 5px 5px 5px 5px ;
+}
+
 .plan-card {
   color: white;
   background-color: black;

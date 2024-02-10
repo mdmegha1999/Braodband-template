@@ -1,5 +1,6 @@
 import "./App.css";
 import { Phone, Mail } from "react-feather";
+// import Main from "./component/Main";
 
 function App() {
   return (
@@ -16,95 +17,76 @@ function App() {
       <main className="App-main">
         <div className="plans-container">
           <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
+          <img src="Entertainment.webp" alt="Entertainment"  style={{ width: '100%', height: '50%' }}/>
+          <div className="plan-price">Rs. 999/month</div>
+            <div className="plan-name">Entertainment</div>
             <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
+              <li>Unlimited Internet</li>
+              <li>Up to 200Mbps Speed</li>
+              <li>Unlimited Local/STD Calls</li>
               <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
             </ul>
+            <button>Buy Now</button>
           </div>
           <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
+          <img src="Infinity.webp" alt="Infinity"  style={{ width: '100%', height: '50%' }}/>
+
+            <div className="plan-price">Rs. 499/month</div>
+            <div className="plan-name">Basic</div>
             <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
+              <li>Unlimited Internet</li>
+              <li>Up to 40Mbps speed</li>
+              <li>Unlimited Local/STD Calls</li>
               <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
             </ul>
+            <button>Buy Now</button>
+
           </div>
           <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
+          <img src="Basic.webp" alt="Basic" />
+
+            <div className="plan-price">Rs. 799/month</div>
+            <div className="plan-name">Standard</div>
             <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
+              <li>Unlimited Internet</li>
+              <li>Up to 100Mbps speed</li>
+              <li>Unlimited Local/STD Calls</li>
               <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
             </ul>
+            <button>Buy Now</button>
+
           </div>
           <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
+          <img src="Professional.webp" alt="Professional" />
+
+            <div className="plan-price">Rs. 1498/month</div>
+            <div className="plan-name">Professional</div>
             <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
+              <li>Unlimited Internet</li>
+              <li>Up to 300Mbps speed</li>
+              <li>Unlimited Local/STD Calls</li>
               <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
             </ul>
+            <button>Buy Now</button>
+
+
           </div>
           <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
+          <img src="Standard.webp" alt="Standard" />
+
+            <div className="plan-price">Rs. 3999/month</div>
+            <div className="plan-name">Infinity</div>
             <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
+              <li>Unlimited Internet</li>
+              <li>Up to 1Gbps speed</li>
+              <li>Unlimited Local/STD Call</li>
               <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
             </ul>
+            <button>Buy Now</button>
           </div>
-          <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
-            <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
-              <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
-            </ul>
-          </div>
-          <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
-            <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
-              <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
-            </ul>
-          </div>
-          <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
-            <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
-              <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
-            </ul>
-          </div>
-          <div className="plan-card">
-            <div className="plan-price">Rs. 499</div>
-            <div className="plan-name">Xstream Fiber Tariff</div>
-            <ul className="plan-benefits">
-              <li>Unlimited Data</li>
-              <li>40Mbps speed</li>
-              <li>Free voice calling</li>
-              <li>Airtel Xstream, Wynk Music, and Shaw Academy subscription</li>
-            </ul>
-          </div>
+          
+          
+          
         </div>
       </main>
       <footer className="App-footer">
